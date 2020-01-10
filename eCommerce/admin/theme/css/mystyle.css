@@ -1,0 +1,394 @@
+/* Start Main Rulez */
+
+ body {
+     background: #F4F4F4;
+     font-size: 16px;
+}
+
+/* End Main Rulez */
+
+/* Start Login Page */
+
+.login .box-login {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: #eee;
+    box-shadow: 0px 0px 5px #000;
+    border-radius: 15px
+}
+
+.login .box-login h4 {
+    background-color: #eee;
+    margin: 0px;
+    margin-top: -40px;
+    width: 100px;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.login .box-login a {
+    text-decoration: none
+}
+
+/* End Login Page */
+
+/* Start Dashboard Page */
+
+.statistic .stats {
+    background-color: #eee;
+    padding: 10px 0;
+    color: #fff;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden
+}
+
+.statistic .stats i{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 70px
+}
+
+.statistic .stats .info {
+    float: right;
+    padding-right: 20px;
+    font-weight: bold
+}
+
+.statistic .members {
+    background-color: darkred
+}
+
+.statistic .pending {
+    background-color: fuchsia
+}
+
+.statistic .items {
+    background-color: chocolate
+}
+
+.statistic .comments {
+    background-color: darkmagenta
+}
+
+.statistic .stats span {
+    display: block;
+    font-size: 60px;
+    
+}
+
+.statistic a {
+    color: #FFF;
+}
+
+.latest {
+    margin-top: 30px
+}
+
+.latest .panel-heading {
+    font-weight: bold
+}
+
+.latest-users li {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.latest-users li:nth-child(odd) {
+    background-color: #eee;
+}
+
+.latest-users .activate {
+    margin-right: 5px
+}
+
+.latest .toggle-plus {
+    cursor: pointer
+}
+
+.latest .latest-users .touser {
+    color: #000;
+    font-weight: bold
+}
+
+.latest .box-comment {
+    overflow: hidden
+}
+
+.latest .box-comment span,
+.latest .box-comment p {
+    float: left
+}
+
+.latest .box-comment span {
+    font-weight: bold;
+    width: 80px;
+}
+
+.latest .box-comment p {
+    background-color: #f6f6f6;
+    width: calc(100% - 90px);
+    padding: 10px;
+    margin-left:10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative
+}
+
+.latest .box-comment p:before {
+    content: "";
+    position: absolute;
+    border-width: 15px;
+    border-color: transparent #f6f6f6 transparent transparent;
+    border-style: solid;
+    top: 4px;
+    left: -27px;
+
+}
+
+/* End Dashboard Page */
+
+/* Start Member Page */
+
+.edit input[type='text'],
+.edit input[type='password'],
+.edit input[type='email'] {
+    color: #000
+}
+
+.edit .fa-eye {
+    position: absolute;
+    top: 5px;
+    right: -30px;
+    font-size: 35px
+}
+
+.mange-table {
+    -webkit-box-shadow: 0px 3px 10px #ccc;
+    -moz-box-shadow: 0px 3px 10px #ccc;
+    box-shadow: 0px 3px 10px #ccc
+}
+
+.mange-table td {
+    background-color: #FFF;
+    vertical-align: middle !important
+}
+
+.mange-table tr:first-child td{
+    background-color : #101010;
+    color: #fff
+}
+
+.mange-table .btn {
+    padding: 3px 10px;
+}
+
+.mange-table i {
+    margin-right: 3px
+}
+
+
+/* End Member Page */
+
+/* Start Category Page */
+
+.cats .panel-heading {
+    position: relative;
+    color: #959595
+}
+
+.cats .panel-body {
+    padding: 0
+}
+
+.cats .ordering {
+    position: absolute;
+    top: 10px;
+    right: 10px
+}
+
+.cats .ordering a {
+    font-weight: bold;
+    color: #959595
+}
+
+.cats .ordering a.active {
+    color: #f00;
+}
+
+.cats .cat {
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #eee
+}
+
+.cats .cat h3 {
+    margin: 0;
+    color: #6a6a6a;
+    font-weight: bold
+}
+
+.cats .cat p {
+    margin: 10px 0;
+    color: #707070
+}
+
+.cats .cat .visibility, 
+.cats .cat .commenting,
+.cats .cat .ads {
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold
+}
+
+.cats .cat .visibility {
+    background-color: #d69eed
+}
+
+.cats .cat .commenting {
+    background-color: #ddd95a
+}
+
+.cats .cat .ads {
+    background-color: #8ba7a7
+}
+
+.cats .cat:last-child {
+    border: none
+}
+
+.cats .cat .btn-action {
+    position: absolute;
+    top: 10px;
+    right: -140px;
+    transition: all .3s ease-in-out
+}
+
+.cats .cat:hover{
+    background-color: #eee
+}
+
+.cats .cat:hover .btn-action {
+    right: 10px
+}
+
+.cats .cat .btn-action .btn {
+    padding: 3px 7px    
+}
+
+.cats .add_cat{
+    margin-bottom: 30px;
+    margin-top: -10px
+}
+
+.child-category {
+    margin-left: 10px;
+    background-color: #ddd;
+    padding: 10px 5px;
+    border-radius: 5px
+}
+.child-category h4 {
+    margin: 0 0 5px;
+    color: #aaa
+}
+
+.child-category ul li {
+    margin: 0;
+    padding-left: 10px
+}
+
+.child-category ul li:before {
+    content: "- "
+}
+
+/* End Category Page */
+
+/* Start Bootstrap Edit */
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0
+}
+
+.navbar-brand {
+    font-size: 1em;
+    padding: 15px 12px;
+}
+
+.nav > li > a {
+    padding: 15px 12px;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #3498db
+}
+
+.navbar-nav > li > .dropdown-menu {
+    background-color: #3498db
+}
+
+.dropdown-menu {
+    font-size: 1em;
+    border-radius: 0;
+    border: none;
+    min-width: 180px;
+    
+}
+
+.dropdown-menu > li > a {
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.form-control {
+    position: relative
+}
+
+/* End Bootstrap Edit */
+
+/* Start Our FrameWork */
+
+h1 {
+    font-size: 50px;
+    color: #666;
+    font-weight: bold;
+    margin: 30px 0
+}
+
+.asterisk {
+    position: absolute;
+    top: 4px;
+    right: 30px;
+    font-size: 40px;
+    color: #c85050
+}
+
+.tbl-empty {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 5px solid #080;
+    font-weight: bold
+}
+
+/* End Our FrameWork */
+
+
+
+
+
+
+
+
